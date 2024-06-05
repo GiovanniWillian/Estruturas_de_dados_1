@@ -31,9 +31,6 @@ int main(){
     int tamanho;
     float*vetor=cria_vetor(5);
 
-    float*vetor2=cria_vetor(3);
-
-    
     ler_vetor(vetor2,5);
     imprimir_vetor(vetor2,5);
     free(vetor2);
